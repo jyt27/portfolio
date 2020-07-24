@@ -1,0 +1,224 @@
+body {
+  background-color: rgb(22, 38, 53);
+  font-family: "roboto";
+  text-align: center;
+  margin: 0;
+  color: white;
+}
+
+.top-heading {
+  text-align: center;
+  position: relative;
+  image-orientation: initial;
+}
+
+.intro-sec {
+  font-family: "Sacramento";
+  text-align: center;
+  width: 67%;
+  margin: 0 auto;
+  font-size: 2.8vw;
+  padding: 2px;
+}
+
+hr {
+  border-style: dotted;
+}
+.avatar {
+  width: 20%;
+  align-content: flex-end;
+}
+
+.laptop {
+  width: 25%;
+  float: left;
+  margin: 6%;
+}
+
+.mountain {
+  width: 100%;
+}
+
+.main-heading {
+  font-family: "Caveat";
+  font-size: 4vw;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+
+.main-para {
+  font-size: 2.8vw;
+  top: 30%;
+}
+
+.hobby1 {
+  width: 12%;
+  float: right;
+  margin: 6%;
+}
+.hobby2 {
+  width: 12%;
+  float: left;
+  margin: 6%;
+}
+.project {
+  width: 15%;
+  float: right;
+  clear: right;
+}
+.social {
+  width: 2%;
+}
+
+.mid-sec {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.fab {
+  margin: 0 1%;
+}
+
+.instagram {
+  color: crimson;
+}
+
+.twitter {
+  color: skyblue;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+nav {
+  background: 162635;
+}
+
+nav li:first-child {
+  border: 3px;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  color: rgb(22, 38, 53);
+}
+
+nav a {
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  display: block;
+  padding: 10px;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+@media screen and (min-width: 768px) {
+}
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* contact me button */
+
+hr {
+  border-style: none;
+  border-top-style: solid;
+  border-color: grey;
+  border-width: 1px;
+  width: 30%;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.flex-container {
+  display: flex;
+}
+.myButton {
+  background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+  background-color: blue;
+  border-radius: 15px;
+  border: 1px solid #d6bcd6;
+  display: inline-block;
+  cursor: pointer;
+  color: #3a8a9e;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 7px 25px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #e1e2ed;
+}
+.myButton:hover {
+  background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+  background-color: #bab1ba;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.slide-bck-center {
+  -webkit-animation: slide-bck-center 0.45s cubic-bezier(0.47, 0, 0.745, 0.715)
+    both;
+  animation: slide-bck-center 0.45s cubic-bezier(0.47, 0, 0.745, 0.715) both;
+}
+html {
+  scroll-behavior: smooth;
+}
+#mid-sec {
+  scroll-behavior: smooth;
+}
+#project {
+  scroll-behavior: smooth;
+}
+#contact {
+  scroll-behavior: smooth;
+}
+
+.social-icons {
+  list-style: none;
+}
+
+.social-icons {
+  text-align: center;
+}
+.social-icons li {
+  display: inline-block;
+  list-style-type: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+}
+.social-icons li a {
+  border-bottom: none;
+}
+.social-icons li img {
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
