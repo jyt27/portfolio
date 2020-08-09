@@ -47,6 +47,7 @@ hr {
   left: 50%;
   transform: translate(-50%, -50%);
   color: black;
+  animation: drop 1.2s ease;
 }
 
 .main-para {
